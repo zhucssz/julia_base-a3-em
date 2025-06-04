@@ -36,7 +36,6 @@ function ler_matriz(n)
     return P
 end
 
-
 #? criar o vetor inicial
 function ler_vetor_inicial(n)
     while true # falta fechar aq
