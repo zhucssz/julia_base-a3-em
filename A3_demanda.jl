@@ -4,7 +4,6 @@ using Pkg
 Pkg.add("Plots")
 
 PRA INSTALAR O PACKAGE DOS GRÁFICOS =# 
-
 using Plots
 
 #? leitura da matriz
