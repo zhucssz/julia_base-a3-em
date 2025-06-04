@@ -21,10 +21,12 @@ function ler_matriz(n)
                     println("[!] Cada linha deve ter exatamente $n valores.")
                     continue
                 end
+
                 if abs(sum(linha) - 1.0) > 1e-5
                     println("[!] A soma dos valores da linha $i deve ser 1. Foi: $(sum(linha))")
                     continue
                 end
+
                 P[i, :] = linha
                 break
             catch
@@ -47,10 +49,12 @@ function ler_vetor_inicial(n)
                 println("[!] O vetor deve ter $n elementos.")
                 continue
             end
+
             if abs(sum(v) - 1.0) > 1e-5
                 println("[!] A soma dos elementos deve ser 1. Foi: $(sum(v))")
                 continue
             end
+            
             return v
         catch
             println("[!] Entrada inválida. Use apenas números, separados por espaço.")
