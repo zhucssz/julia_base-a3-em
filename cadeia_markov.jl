@@ -112,7 +112,7 @@ n = parse(Int, readline())
 P = ler_matriz(n)
 estado_inicial = ler_vetor_inicial(n)
 
-print("\n[i] Quantos passos deseja simular? ")
+print("\n[i] Quantos passos deseja simular? (tamanho da matriz): ")
 flush(stdout)
 passos = parse(Int, readline())
 
